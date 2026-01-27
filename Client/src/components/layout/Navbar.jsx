@@ -12,7 +12,7 @@ const Navbar = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navLinks = ['Home', 'Services', 'About', 'Team', 'Contact'];
+  const navLinks = ['Home', 'Services', 'About', 'Team','Projects', 'Contact'];
 
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${

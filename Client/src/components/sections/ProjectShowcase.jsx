@@ -37,7 +37,7 @@ const projects = [
 
 const ProjectShowcase = () => {
   return (
-    <section className="py-14 bg-gray-50">
+    <section className="py-14 bg-gray-50 " id="projects">
       <h2 className="text-4xl font-bold text-center mb-12 text-gray-800">
         Our Projects
       </h2>
