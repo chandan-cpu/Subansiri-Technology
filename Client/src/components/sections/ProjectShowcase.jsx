@@ -46,7 +46,8 @@ const ProjectShowcase = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="group relative rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300"
+            className="group relative rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 cursor-pointer"
+            onClick={() => window.location.href = project.link}
           >
             {/* Image */}
             <img
