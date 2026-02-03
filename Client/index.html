@@ -1,4 +1,5 @@
 <!doctype html>
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
 
@@ -13,9 +14,24 @@
 
   <!-- Website Logo / Favicon -->
   <link rel="icon" type="image/jpeg" href="/logo.jpeg" />
+
+  <!-- Organization Schema (For Google Logo & Branding) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Subansiri Technologies",
+    "url": "https://subansiritechnologies.tech",
+    "logo": "https://subansiritechnologies.tech/logo.jpeg"
+  }
+  </script>
+
 </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<body>
+  <div id="root"></div>
+
+  <!-- React Entry File -->
+  <script type="module" src="/src/main.jsx"></script>
+</body>
 </html>
