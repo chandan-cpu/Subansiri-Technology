@@ -37,6 +37,7 @@ const Hero = () => {
                  {/* Placeholders for logos */}
                  <span className="text-base sm:text-lg md:text-xl font-bold font-serif">Morisika</span>
                  <span className="text-base sm:text-lg md:text-xl font-bold font-sans">HBTU</span>
+                  <span className="text-base sm:text-lg md:text-xl font-bold font-mono">Btech Kabadiwala</span>
               </div>
             </div>
           </FadeIn>
